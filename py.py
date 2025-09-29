@@ -1,6 +1,4 @@
-number = 11
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr)
 
-if(number == 10):
-    print("10")
-else:
-    print("no es 10")
