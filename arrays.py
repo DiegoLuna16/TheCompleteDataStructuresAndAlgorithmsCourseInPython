@@ -29,3 +29,14 @@ def traversalArray(array):
         print(i)
 
 traversalArray(arr_3)
+
+#Access array element
+arr_4 = array.array('i', [1,2,3,4])
+
+def accessElement(array, index):
+    if index > len(array):
+        print('There is not any element in this index')
+    else:
+        print(array[index])
+
+accessElement(arr_4,12)
