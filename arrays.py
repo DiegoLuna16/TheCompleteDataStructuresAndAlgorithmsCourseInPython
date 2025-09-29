@@ -21,3 +21,11 @@ arr_3 = array.array('i', [1,2,3,4])
 print(arr_3)
 arr_3.insert(0,6) #first parameter is the index and the seconde one the value 
 print(arr_3)
+
+#Array traversal
+
+def traversalArray(array):
+    for i in array:
+        print(i)
+
+traversalArray(arr_3)
