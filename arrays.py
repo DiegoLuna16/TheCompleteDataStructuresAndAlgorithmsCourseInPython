@@ -1,3 +1,4 @@
+#Initialization 
 import array
 
 arr = array.array('i',)
@@ -14,3 +15,9 @@ print(np_arr)
 np_arr1 = np.array([1,2,3,4], dtype=int)
 print(np_arr)
 
+#Insertion to Array
+
+arr_3 = array.array('i', [1,2,3,4])
+print(arr_3)
+arr_3.insert(0,6) #first parameter is the index and the seconde one the value 
+print(arr_3)
