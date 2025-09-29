@@ -50,3 +50,10 @@ def searchElement(array, target):
     return -1;
 
 print(searchElement(arr_5,3))
+
+#Deletion
+
+arr_6 = array.array('i',[1,2,3,4,5])
+
+arr_6.remove(1)
+print(arr_6)
