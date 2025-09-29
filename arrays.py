@@ -40,3 +40,13 @@ def accessElement(array, index):
         print(array[index])
 
 accessElement(arr_4,12)
+
+#Searching for an element in Array
+arr_5 = array.array('i', [1,2,3,4])
+def searchElement(array, target):
+    for i in range(len(array)):
+        if array[i] == target:
+            return i;
+    return -1;
+
+print(searchElement(arr_5,3))
