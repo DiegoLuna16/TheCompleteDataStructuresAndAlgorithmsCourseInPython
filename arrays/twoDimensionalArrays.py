@@ -34,4 +34,21 @@ def traversing(array):
     
 traversing(twoDimensionalArray4)
 
+#Searching Two Dimensional Array
+
+def search(array, value):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            if(array[i][j] == value):
+                return f"The value is located in the row {i} and the column {j}."
+
+    return -1;
+
+print(search(twoDimensionalArray4, 18))
+
+#Deletion
+
+print(twoDimensionalArray4)
+newTDArray = np.delete(twoDimensionalArray4, 0, axis=1)
+print(newTDArray)
 
