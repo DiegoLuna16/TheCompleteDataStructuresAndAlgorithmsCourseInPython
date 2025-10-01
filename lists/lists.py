@@ -56,3 +56,21 @@ print(myList)
 
 #Searching
 
+numbers = [10,20,30,40,50,60,70,80,90]
+
+#in operator
+target = 50
+if target in numbers:
+    print(f"{target} is in the list")
+else:
+    print(f"{target} is not in the list")
+
+#Linear search
+
+def linearSearch(list,target):
+    for i, value in enumerate(list):
+        if value == target:
+            return i;
+    return -1
+
+print(linearSearch(numbers,80))
