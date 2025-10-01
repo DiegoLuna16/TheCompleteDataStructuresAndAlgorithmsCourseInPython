@@ -40,3 +40,19 @@ print(myList)
 newList = [34,54,2,3,212,32,42]
 myList.extend(newList);
 print(myList)
+
+#Slice/Delete
+
+myList = ['a', 'b', 'c','d','e','f']
+myList[0:2] = ['x','y']
+print(myList[0:2])
+print(myList)
+myList.remove('x')
+print(myList)
+myList.pop(3)
+
+del myList[-1]
+print(myList)
+
+#Searching
+
